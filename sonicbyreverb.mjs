@@ -19,7 +19,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question(`Enter your solana wallet private key:`, async (privkey) => {
+rl.question(`Enter your Solana wallet private key:`, async (privkey) => {
     try {
         const connection = new Connection("https://api.devnet.solana.com", 'confirmed');
 
