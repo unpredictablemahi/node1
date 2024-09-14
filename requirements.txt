@@ -1,0 +1,7 @@
+requests
+httpx
+httpx[http2]
+aiofiles
+fake-useragent
+pyfiglet
+httpx[socks]
